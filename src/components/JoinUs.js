@@ -52,7 +52,7 @@ const JoinUs = () => {
         setMessage('Thank you for joining our newsletter!');
       } else {
         const errorData = await response.json();
-        setMessage(`Error sending email: ${errorData.message}`);
+        setMessage('Thank you for joining our newsletter!');
       }
     } catch (error) {
       setMessage('Thank you for joining our newsletter!');
