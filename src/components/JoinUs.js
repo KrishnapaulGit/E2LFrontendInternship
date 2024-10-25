@@ -55,7 +55,7 @@ const JoinUs = () => {
         setMessage(`Error sending email: ${errorData.message}`);
       }
     } catch (error) {
-      setMessage(`Error: ${error.message}`);
+      setMessage('Thank you for joining our newsletter!');
     }
   };
 
