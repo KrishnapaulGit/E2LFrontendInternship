@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #6C63FF;
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .get-started-btn {
+    background-color: #F8B400;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .course-info {
+    background-color: #F8B400;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: -30px;
+  }
+  
