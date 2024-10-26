@@ -15,10 +15,10 @@ const HeroSection = () => {
           help you to master your frontend skills and develop your career path.
         </p>
         <div className="button-container">
-        <a href='https://play.google.com/store/apps/details?id=co.edvin.ubglj&pcampaignid=web_share' target='_blank'>
+        <a href='https://play.google.com/store/apps/details?id=co.edvin.ubglj&pcampaignid=web_share' target='_blank' rel="noreferrer">
           <button className="get-started-btn">Get Started</button>
         </a>
-        <a href='https://youtu.be/7AVlDXaXGEY?si=_b_e6PViip3lGeUt' target='_blank'>
+        <a href='https://youtu.be/7AVlDXaXGEY?si=_b_e6PViip3lGeUt' target='_blank' rel="noreferrer">
           <button className="watch-video-btn">
             <span className="play-icon">▶</span> Watch Video
           </button>

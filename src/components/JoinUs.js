@@ -51,7 +51,6 @@ const JoinUs = () => {
       if (response.ok) {
         setMessage('Thank you for joining our newsletter!');
       } else {
-        const errorData = await response.json();
         setMessage('Thank you for joining our newsletter!');
       }
     } catch (error) {
